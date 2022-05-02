@@ -47,6 +47,7 @@ body {
 /*  Навигация сайта */
 
 .site-nav .link {
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -83,7 +84,8 @@ body {
     background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;   
+    line-height: 1.36; 
+    text-transform: uppercase;  
     text-align: center;
 }
 
@@ -92,8 +94,7 @@ body {
 .hero-btn {
     color: #FFFFFF;
     background-color: var(--accent-color);
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -103,6 +104,7 @@ body {
 .portfolio-btn .btn {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -129,6 +131,7 @@ body {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .feature-list .text {
@@ -144,7 +147,6 @@ body {
 }
 
 .team-list .text {
-    font-size: 16px;
     line-height: 1.19;
 }
 
@@ -167,7 +169,6 @@ body {
 
 .works .text {
     color: var(--primary-text-color);
-    font-size: 16px;
     line-height: 1.88;
 }
 
